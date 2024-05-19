@@ -4,56 +4,56 @@ public class Iphone implements ReprodutorMusical, AparelhoTelefonico, NavegadorI
 
     @Override
     public void exibirPagina(String url) {
-        // TODO Auto-generated method stub
-        throw new UnsupportedOperationException("Unimplemented method 'exibirPagina'");
+       
+        System.out.println("Exibindo a página " + url);
     }
 
     @Override
     public void adicionarNovaAba() {
-        // TODO Auto-generated method stub
-        throw new UnsupportedOperationException("Unimplemented method 'adicionarNovaAba'");
+        
+        System.out.println("Nova Aba adicionada");
     }
 
     @Override
     public void atualizarPagina() {
-        // TODO Auto-generated method stub
-        throw new UnsupportedOperationException("Unimplemented method 'atualizarPagina'");
+        
+        System.out.println("Atualizando pagina web");
     }
 
     @Override
     public void ligar(String numero) {
-        // TODO Auto-generated method stub
-        throw new UnsupportedOperationException("Unimplemented method 'ligar'");
+
+        System.out.println("Ligando para o numero " + numero);
     }
 
     @Override
     public void atender() {
-        // TODO Auto-generated method stub
-        throw new UnsupportedOperationException("Unimplemented method 'atender'");
+        
+        System.out.println("Atender?");
     }
 
     @Override
     public void iniciarCorreioVoz() {
-        // TODO Auto-generated method stub
-        throw new UnsupportedOperationException("Unimplemented method 'iniciarCorreioVoz'");
+        
+        System.out.println("iniciar correios de voz");
     }
 
     @Override
     public void tocar() {
-        // TODO Auto-generated method stub
-        throw new UnsupportedOperationException("Unimplemented method 'tocar'");
+        
+        System.out.println("Blaaah Blaaah");
     }
 
     @Override
     public void pausar() {
-        // TODO Auto-generated method stub
-        throw new UnsupportedOperationException("Unimplemented method 'pausar'");
+
+        System.out.println("Musica pausada");
     }
 
     @Override
     public void selecionarMusica(String musica) {
-        // TODO Auto-generated method stub
-        throw new UnsupportedOperationException("Unimplemented method 'selecionarMusica'");
+        
+        System.out.println("Tocando a musica " + musica);
     }
 
     
